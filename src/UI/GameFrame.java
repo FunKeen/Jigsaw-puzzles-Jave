@@ -212,8 +212,8 @@ public class GameFrame extends JFrame implements MouseListener {
 
         if (isArea(mr, nr)) {
             int flag = Math.abs(mp - mr) - Math.abs(np - nr);
-            int X = 0;
-            int Y = 0;
+            int X;
+            int Y;
 
             if (flag < -20) {
                 if (np < nr) {
